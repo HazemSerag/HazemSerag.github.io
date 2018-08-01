@@ -74,7 +74,7 @@ img.rounded-circle{
 	display: flex;
 	flex-wrap: wrap;
 	background-color: #9d1e1e;
-	min-height: 800px;
+	min-height:1500px;
 }
 .Profile{
 	margin-top: 50px;
