@@ -1,45 +1,8 @@
 
-@media (max-width: 920px){
+
+@media (max-width: 375px){
   .About, .Education, .Skills , .Tools , .Music , .Hobbies {
-    min-height:475px; 
-
-  }
-}
-}
-
-@media (max-width: 700px){
-  .About, .Education, .Skills , .Tools , .Music , .Hobbies {
-    min-height:420px; 
-
-  }
-}
-
-
-@media (max-width: 560px){
-  .About, .Education, .Skills , .Tools , .Music , .Hobbies {
-    min-height:360px; 
-
-  }
-}
-
-
-@media (max-width: 480px){
-  .About, .Education, .Skills , .Tools , .Music , .Hobbies {
-    min-height:321px; 
-
-  }
-}
-
-@media (max-width: 320px){
-  .About, .Education, .Skills , .Tools , .Music , .Hobbies {
-    min-height:481px; 
-
-  }
-}
-
-@media (max-width: 280px){
-  .About, .Education, .Skills , .Tools , .Music , .Hobbies {
-    min-height:350px; 
+    min-height:667px; 
 
   }
 }
