@@ -1,0 +1,48 @@
+﻿@import url(https://fonts.googleapis.com/css?family=Playfair+Display);
+body{
+	position: absolute;
+	height:100%;
+	width: 100%;
+	margin: 0px;
+
+
+}
+
+.container-fluid{
+	height: 100%;
+	width: 100%;
+	justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+	background-image: url("Black.jpg");
+	background-size: cover;
+	
+}
+
+.btn-outline-warning, .btn-outline-success, .btn-danger{
+	margin: 4px;
+	width: 100px;
+	text-shadow: 1px 1px black;
+	transition: all 1s;
+}
+a{
+	color: white;
+}
+.btn:hover{
+	transform: scale(1.1);
+}
+.row{
+	justify-content: center;
+	text-align: center;
+}
+
+h5{
+	text-shadow: 2px 1px black;
+	color: white;
+}
+
+h1{
+	font-family: impact;
+	text-shadow: 3px 1px black;
+	color: white;
+}

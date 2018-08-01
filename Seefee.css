@@ -1,0 +1,170 @@
+
+@media (max-width: 920px){
+  .About, .Education, .Skills , .Tools , .Music , .Hobbies {
+    min-height:475px; 
+
+  }
+}
+}
+
+@media (max-width: 700px){
+  .About, .Education, .Skills , .Tools , .Music , .Hobbies {
+    min-height:420px; 
+
+  }
+}
+
+
+@media (max-width: 560px){
+  .About, .Education, .Skills , .Tools , .Music , .Hobbies {
+    min-height:360px; 
+
+  }
+}
+
+
+@media (max-width: 480px){
+  .About, .Education, .Skills , .Tools , .Music , .Hobbies {
+    min-height:321px; 
+
+  }
+}
+
+@media (max-width: 320px){
+  .About, .Education, .Skills , .Tools , .Music , .Hobbies {
+    min-height:481px; 
+
+  }
+}
+
+@media (max-width: 280px){
+  .About, .Education, .Skills , .Tools , .Music , .Hobbies {
+    min-height:350px; 
+
+  }
+}
+
+@font-face {
+  font-family: "Saira Extra Condensed";
+  src: local("Saira ExtraCondensed Bold"), local("SairaExtraCondensed-Bold"), url("https://fonts.gstatic.com/s/sairaextracondensed/v3/-nFvOHYr-vcC7h8MklGBkrvmUG9rbpkisrTrU23h2wph.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 700;
+  unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Saira Extra Condensed";
+  src: local("Saira ExtraCondensed Medium"), local("SairaExtraCondensed-Medium"), url("https://fonts.gstatic.com/s/sairaextracondensed/v3/-nFvOHYr-vcC7h8MklGBkrvmUG9rbpkisrTrG2vh2wph.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 500;
+  unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+.container-fluid{
+	display: flex;
+	flex-wrap: wrap;
+}
+img.rounded-circle{
+	max-width: 190px;
+	max-height: 190px;
+	border: 8px solid #922525;
+}
+.Fixed {
+	position: fixed;	
+	justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #9d1e1e;
+	min-height: 800px;
+}
+.Profile{
+	margin-top: 50px;
+	max-height: 230px;
+}
+.btn{
+	font-family:  "Saira Extra Condensed", serif;
+	font-size: 25px;
+	border: 1px solid #9d1e1e; 
+	margin-top: 10px;
+	background-color: #9d1e1e;
+}
+h1, .Title{
+	box-sizing: border-box;
+	color: rgb(52, 58, 64);
+	font-family: "Saira Extra Condensed", serif;
+	font-size: 8vw;
+	font-weight: 700;
+	line-height: 7vw;
+	margin-bottom: 5px;
+	margin-top: 25px;
+	text-align: left;
+	text-transform: uppercase;
+}
+span.Fonc{
+	box-sizing: border-box;
+	color: #9d1e1e;
+	font-family: "Saira Extra Condensed", serif;
+	font-size: 8vw;
+	font-weight: 700;
+	line-height: 7vw;
+	text-align: left;
+	text-transform: uppercase;
+}
+p.Sub{
+	box-sizing: border-box;
+	color: rgb(134, 142, 150);
+	font-family: "Saira Extra Condensed", serif;
+	font-size: 2vw;
+	font-weight: 500;
+	line-height: 4vw;
+	margin-bottom: 48px;
+	text-align: left;
+	text-transform: uppercase;
+}
+p.SubD, span.SubD{
+	box-sizing: border-box;
+	color: #ad1e1e;
+	font-family: "Saira Extra Condensed", serif;
+	font-size: 2vw;
+	font-weight: 500;
+	line-height: 4vw;
+	margin-bottom: 48px;
+	text-align: right;
+	text-transform: uppercase;
+	min-height: 100px;
+}
+p.Sub2, span.Sub2{
+	box-sizing: border-box;
+	color: rgb(134, 142, 150);
+	font-family: "Open Sans", serif;
+	font-size: 1.5vw;
+	font-weight: 400;
+	line-height: 3vw;
+	margin-bottom: 48px;
+	margin-top: 0px;
+	text-align: justify;
+}
+.About, .Education, .Skills , .Tools , .Music , .Hobbies{
+	margin-left: 15px;
+	display: flex;
+	flex-wrap: wrap;
+	border-bottom: 1px solid grey;
+	min-height: 660px;
+}
+.Progress{
+	background-color: white;
+}
+.Options{
+	margin-top: -220px;
+}
+.Languages{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.Follow{
+	min-width: 200px;
+}
+.IconF, .IconY, .IconGH{
+	margin-right: 0px;
+	height: 48px;
+	width: 48px;
+}
