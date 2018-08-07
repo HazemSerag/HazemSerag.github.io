@@ -1,5 +1,4 @@
 
-
 @media (max-width: 375px){
   .About, .Education, .Skills , .Tools , .Music , .Hobbies {
     min-height:750px; 
@@ -37,7 +36,7 @@ img.rounded-circle{
 	display: flex;
 	flex-wrap: wrap;
 	background-color: #9d1e1e;
-	min-height:1700px;
+	min-height:1800px;
 }
 .Profile{
 	margin-top: 50px;
@@ -117,7 +116,10 @@ p.Sub2, span.Sub2{
 	background-color: white;
 }
 .Options{
-	margin-top: -220px;
+	position: absolute;
+	margin-top: 250px;
+	margin-right: 10px;
+	max-height: 400px;
 }
 .Languages{
 	margin-top: 5px;
@@ -130,4 +132,22 @@ p.Sub2, span.Sub2{
 	margin-right: 0px;
 	height: 48px;
 	width: 48px;
+}
+.Cir, .Hob{
+	margin-top: 20px;
+	justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+}
+.card{
+	max-height: 460px;
+	border: 1px solid gray;
+	padding: 0px;
+	margin:20px;}
+
+img.Guitar{
+min-height: 210px;
+}
+p.card-text{
+	min-height: 100px;
 }
