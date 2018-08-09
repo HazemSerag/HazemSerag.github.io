@@ -1,3 +1,12 @@
+
+@media (max-width: 375px){
+  img.card-img-top{
+    min-height:650px; 
+
+  }
+}
+
+
 body{
 	position: absolute;
 	height:100%;
@@ -28,10 +37,10 @@ body{
 h1{
 	text-align: center;
 }
-img{
+img.card-img-top{
 	min-width: 150px;
-	min-height: 200px;
-	max-height: 200px;
+	min-height: 240px;
+	max-height: 400px;
 	transition: all 1s;
 }
 img:hover{
