@@ -28,7 +28,7 @@
 img.rounded-circle{
 	max-width: 190px;
 	max-height: 190px;
-	border: 8px solid #922525;
+	border: 2px solid lightgray;
 }
 .Fixed {
 	position: fixed;	
