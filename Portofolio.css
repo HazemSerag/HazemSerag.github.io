@@ -1,5 +1,5 @@
 
-@media (max-width: 375px){
+@media (min-width: 375px){
   img.card-img-top{
     min-height:650px; 
 
@@ -40,7 +40,6 @@ h1{
 img.card-img-top{
 	min-width: 150px;
 	min-height: 240px;
-	max-height: 400px;
 	transition: all 1s;
 }
 img:hover{

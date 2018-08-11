@@ -1,11 +1,4 @@
 
-@media (max-width: 375px){
-  .About, .Education, .Skills , .Tools , .Music , .Hobbies {
-    min-height:750px; 
-
-  }
-}
-
 @font-face {
   font-family: "Saira Extra Condensed";
   src: local("Saira ExtraCondensed Bold"), local("SairaExtraCondensed-Bold"), url("https://fonts.gstatic.com/s/sairaextracondensed/v3/-nFvOHYr-vcC7h8MklGBkrvmUG9rbpkisrTrU23h2wph.woff2") format("woff2");
@@ -98,7 +91,7 @@ p.Sub2, span.Sub2{
 	box-sizing: border-box;
 	color: #333333;
 	font-family: "Saira Extra Condensed", serif;
-	font-size: 2vw;
+	font-size: 2.2vw;
 	font-weight: 400;
 	line-height: 3vw;
 	margin-bottom: 48px;
@@ -111,6 +104,9 @@ p.Sub2, span.Sub2{
 	flex-wrap: wrap;
 	border-bottom: 1px solid grey;
 	min-height: 660px;
+}
+.Music{
+	justify-content: left;
 }
 .Progress{
 	border: 2px solid lightgray;
@@ -143,23 +139,24 @@ p.Sub2, span.Sub2{
 .Cir{
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: center;
+	justify-content: left;
 }
 svg{
 	margin: -40px;
 }
 .card{
 	min-height: 2vw;
-	min-width: 300px;
+	min-width: 325px;
 	border: 1px solid lightgray;
 	padding: 0px;
+	margin-left:0px;  
 	margin-top: 30px;
 	margin-right: 10px;
 	margin-bottom: 20px;
 }
 
 img.Guitar{
-min-height: 248px;
+min-height: 270px;
 min-width: 298px;
 }
 p.card-text{
