@@ -31,7 +31,7 @@ $("img.IconF").on("mouseleave", function(){$("img.IconF").attr("src", "Facebook.
 $("img.IconY").on("mouseover", function(){$("img.IconY").attr("src", "Youtube C.png")});
 $("img.IconY").on("mouseleave", function(){$("img.IconY").attr("src", "Youtube.png")});
 
-$("img.IconGH").on("mouseover", function(){$("img.IconGH").attr("src", "GitHub C.png")});
+$("img.IconGH").on("mouseover", function(){$("img.IconGH").attr("src", "Github C.png")});
 $("img.IconGH").on("mouseleave", function(){$("img.IconGH").attr("src", "GitHub.png")});
 
 /* Scrolling Buttons */
