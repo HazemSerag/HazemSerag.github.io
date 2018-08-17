@@ -50,14 +50,16 @@ body{
 .btn-outline-light, .btn-danger{
 	margin: 4px;
 	width: 100px;
-	text-shadow: 1px 1px black;
-	transition: all 1s;
+	font-family: "Saira Extra Condensed";
+	font-size: 22px;
+	text-shadow: 1px 1px #0a0a0a;
+	transition: all .5s;
 }
 a{
 	color: white;
 }
 .btn:hover{
-	transform: scale(1.1);
+	transform: scale(1.2);
 }
 .row{
 	justify-content: center;
