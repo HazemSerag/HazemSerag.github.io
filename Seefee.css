@@ -239,7 +239,7 @@ span.Fonc{
 
 
 .About, .Education, .Skills , .Tools , .Music , .Hobbies{
-	margin-left: 15px;
+	margin-left: -3px;
 	display: flex;
 	flex-wrap: wrap;
 	border-bottom: 1px solid grey;
@@ -247,7 +247,9 @@ span.Fonc{
 .Music{
 	justify-content: left;
 }
-
+.Page{
+	justify-content: left;
+}
 .Options{
 	position: absolute;
 	margin-top: 250px;
