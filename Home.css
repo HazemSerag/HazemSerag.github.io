@@ -6,16 +6,32 @@ body{
 	margin: 0px;
 }
 
+@font-face {
+  font-family: "Saira Extra Condensed";
+  src: local("Saira ExtraCondensed Bold"), local("SairaExtraCondensed-Bold"), url("https://fonts.gstatic.com/s/sairaextracondensed/v3/-nFvOHYr-vcC7h8MklGBkrvmUG9rbpkisrTrU23h2wph.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 700;
+  unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Saira Extra Condensed";
+  src: local("Saira ExtraCondensed Medium"), local("SairaExtraCondensed-Medium"), url("https://fonts.gstatic.com/s/sairaextracondensed/v3/-nFvOHYr-vcC7h8MklGBkrvmUG9rbpkisrTrG2vh2wph.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 500;
+  unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
 
 @media only screen and (max-width: 376px) {
 
-   h1 { 
-      font-size: 30px; 
+   h1.Fon { 
+   	padding-top: 25px;
+    font-size: 40px; 
    }
 	h5 { 
       font-size: 15px; 
    	}
-	button.btn-outline-warning, button.btn-outline-success, button.btn-danger{
+	button.btn-outline-light, button.btn-danger{
 		width: 94px;
 	}   	
 }
@@ -31,7 +47,7 @@ body{
 	
 }
 
-.btn-outline-warning, .btn-outline-success, .btn-danger{
+.btn-outline-light, .btn-danger{
 	margin: 4px;
 	width: 100px;
 	text-shadow: 1px 1px black;
@@ -50,11 +66,29 @@ a{
 
 h5{
 	text-shadow: 2px 1px black;
-	color: white;
+	color: #cccccc;
 }
 
 h1{
-	font-family: impact;
-	text-shadow: 3px 1px black;
-	color: white;
+	text-shadow: 2px 1px 1px #0a0a0a;
+	height: 50px;
+	box-sizing: border-box;
+	color: rgb(52, 58, 64);
+	font-family: "Saira Extra Condensed", serif;
+	font-size: 65px;
+	font-weight: 700;
+	margin-bottom: 30px;
+	margin-top: 25px;
+	text-align: center;
+	text-transform: uppercase;	
+}
+span.Fonc{
+	box-sizing: border-box;
+	color: #9d1e1e;
+	height: 50px;
+	font-family: "Saira Extra Condensed", serif;
+	font-size: 1em;
+	font-weight: 700;
+	text-align: center;
+	text-transform: uppercase;
 }
